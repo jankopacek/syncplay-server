@@ -1,4 +1,4 @@
-FROM python:2
+FROM python:latest
 RUN pip install twisted
 
 RUN mkdir /app/syncplay -p
