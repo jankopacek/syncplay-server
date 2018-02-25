@@ -1,8 +1,9 @@
 # syncplay-server
 Dockerfile for a syncplay server
 
-[![syncplay](http://syncplay.pl/wp-content/uploads/2012/12/SyncplayIcon128.png)][syncplayurl]
-[syncplayurl]: http://syncplay.pl/
+![syncplay](http://syncplay.pl/wp-content/uploads/2012/12/SyncplayIcon128.png) 
+
+[Syncplay](http://syncplay.pl/)
 
 ## Usage
 
