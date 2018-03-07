@@ -15,3 +15,11 @@ docker create \
 -e PORT=<PORT> \
 bentech2/syncplay-server
 ```
+
+## Docker Deploy
+There is a Docker deploy file available under Deployment.
+Simply replace or remove the PASSWORD and you are good to go.
+To deploy run
+```
+docker stack deploy -c docker-compose.yml syncplay
+```
