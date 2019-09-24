@@ -23,4 +23,12 @@ if [ -n "$PASSWORD" ]; then
   args="$args --password=$PASSWORD"
 fi
 
+if [ -n "$DISABLEREADY" ]; then
+   args="$args --disable-ready"
+fi
+
+if [ -n "$DISABLECHAT" ]; then
+   args="$args --disable-chat"
+fi
+
 exec $(eval "./syncplayServer.py $args $@")

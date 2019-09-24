@@ -15,6 +15,7 @@ services:
     environment:
      - PASSWORD=supersecretpassword
      - ISOLATE=true
+     - DISABLEREADY=true
 
 # volumes:
 #   portainer-data:
